@@ -1,0 +1,23 @@
+{
+  "name": "benyamin.tech",
+  "version": "1.0.0",
+  "description": "benyamin.tech is a personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir ./dist && cp index.html ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benyaminbeyzaie/benyamin.tech.git"
+  },
+  "keywords": [
+    "tech"
+  ],
+  "author": "Benyamin Beyzaie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benyaminbeyzaie/benyamin.tech/issues"
+  },
+  "homepage": "https://github.com/benyaminbeyzaie/benyamin.tech#readme"
+}
