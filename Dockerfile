@@ -2,8 +2,7 @@ FROM docker.repos.balad.ir/node:16 as builder
 
 WORKDIR /benyamin.tech
 RUN npm i -g pnpm
-COPY ./package.json .
-COPY ./pnpm-lock.yaml .
+COPY . .
 RUN pnpm install
 RUN pnpm build
 
