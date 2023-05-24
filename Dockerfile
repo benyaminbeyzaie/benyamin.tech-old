@@ -4,7 +4,6 @@ WORKDIR /benyamin.tech
 RUN npm i -g pnpm
 COPY ./package.json .
 COPY ./pnpm-lock.yaml .
-COPY ./index.html index.html
 RUN pnpm install
 RUN pnpm build
 
